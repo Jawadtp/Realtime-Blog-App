@@ -1,2 +1,2 @@
 # Realtime-Blog-App
-A Flutter app that used Firebase as backend to display live blog entries.
+A Flutter app that uses Firebase as backend to display live blog entries.
