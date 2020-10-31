@@ -6,4 +6,11 @@ class CrudMethods
   {
     FirebaseFirestore.instance.collection(("blogs")).add(blogData).catchError((e){e.toString();});
   }
+
+  getData() async
+  {
+    return await FirebaseFirestore.instance.collection("blogs").snapshots();
+  }
+
+
 }
